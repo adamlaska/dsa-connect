@@ -1,6 +1,6 @@
 import { AbiItem } from 'web3-utils'
 
-export const ZEROX_A: AbiItem[] = [
+export const OKX_A: AbiItem[] = [
   {
     anonymous: false,
     inputs: [

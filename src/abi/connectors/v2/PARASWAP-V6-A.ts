@@ -1,18 +1,6 @@
 import { AbiItem } from 'web3-utils'
 
-export const ZEROX_A: AbiItem[] = [
-  {
-    anonymous: false,
-    inputs: [
-      { indexed: false, internalType: 'address', name: 'buyToken', type: 'address' },
-      { indexed: false, internalType: 'address', name: 'sellToken', type: 'address' },
-      { indexed: false, internalType: 'uint256', name: 'buyAmt', type: 'uint256' },
-      { indexed: false, internalType: 'uint256', name: 'sellAmt', type: 'uint256' },
-      { indexed: false, internalType: 'uint256', name: 'setId', type: 'uint256' }
-    ],
-    name: 'LogSwap',
-    type: 'event'
-  },
+export const PARASWAP_V6_A: AbiItem[] = [
   {
     inputs: [],
     name: 'name',
